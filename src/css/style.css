@@ -1,0 +1,70 @@
+body {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif; }
+
+.container-fluid {
+  max-width: 100%; }
+
+#hero {
+  background: url("/assets/cool-background.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+  #hero .hero-content {
+    position: relative;
+    top: 200px;
+    color: #372155; }
+
+.navbar {
+  width: 100%;
+  height: 5em;
+  background: #20232a !important; }
+  @media (max-width: 34em) {
+    .navbar {
+      background: #ccc !important; } }
+  .navbar .navbar-toggler {
+    cursor: pointer;
+    outline: 1; }
+  .navbar .navbar-brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff !important; }
+  .navbar .nav-link {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .navbar .nav-item {
+    padding: 0 1rem; }
+    @media (max-width: 34em) {
+      .navbar .nav-item {
+        padding: 0; } }
+    .navbar .nav-item .nav-link {
+      color: #fff !important;
+      text-decoration: none;
+      position: relative; }
+      .navbar .nav-item .nav-link:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background-color: #41ade5;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s; }
+      .navbar .nav-item .nav-link:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1); }
+      @media (max-width: 34em) {
+        .navbar .nav-item .nav-link {
+          font-weight: normal;
+          color: #dbc6f8 !important; } }
+
+.feature-wrapper {
+  background-color: #3a585f; }
