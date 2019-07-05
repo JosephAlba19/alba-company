@@ -21,13 +21,15 @@ nav {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  padding: 15px; }
   .navbar .logo {
     display: inline-block;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 2em;
     vertical-align: middle; }
   .navbar .nav-links {
     list-style: none;
@@ -59,14 +61,24 @@ nav {
         transform: scaleX(1); }
 
 #hero {
-  background: url("/assets/cool-background.png") no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh; }
+  height: 100vh;
+  max-width: 100%;
+  display: flex; }
   #hero .hero-content {
-    position: relative;
-    top: 200px;
-    color: #372155; }
+    color: #20232a;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column; }
+    #hero .hero-content h1 {
+      padding-left: 20px; }
+      #hero .hero-content h1 .f-btm-brdr {
+        border-bottom: #41ade5 solid 5px; }
+    #hero .hero-content h4 {
+      font-family: Helvetica, serif;
+      padding: 20px; }
+    #hero .hero-content .atm-img {
+      display: flex;
+      flex-direction: row; }
 
 .feature-wrapper {
   background-color: #20232a; }
