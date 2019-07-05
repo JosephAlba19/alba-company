@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
 body {
   color: #fff;
   margin: 0;
@@ -5,45 +13,33 @@ body {
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif; }
 
-.container-fluid {
-  max-width: 100%; }
-
-#hero {
-  background: url("/assets/cool-background.png") no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh; }
-  #hero .hero-content {
-    position: relative;
-    top: 200px;
-    color: #372155; }
+nav {
+  width: 100%;
+  background: #20232a;
+  padding: 0 10px 0 30px; }
 
 .navbar {
-  width: 100%;
-  height: 5em;
-  background: #20232a !important; }
-  @media (max-width: 34em) {
-    .navbar {
-      background: #ccc !important; } }
-  .navbar .navbar-toggler {
-    cursor: pointer;
-    outline: 1; }
-  .navbar .navbar-brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navbar .logo {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: #fff !important; }
-  .navbar .nav-link {
-    text-transform: uppercase;
-    font-weight: bold; }
+    vertical-align: middle; }
+  .navbar .nav-links {
+    list-style: none;
+    display: flex; }
   .navbar .nav-item {
-    padding: 0 1rem; }
-    @media (max-width: 34em) {
-      .navbar .nav-item {
-        padding: 0; } }
+    padding: 10px 15px; }
     .navbar .nav-item .nav-link {
-      color: #fff !important;
+      color: #fff;
       text-decoration: none;
-      position: relative; }
+      position: relative;
+      text-transform: uppercase;
+      font-weight: bold; }
       .navbar .nav-item .nav-link:before {
         content: "";
         position: absolute;
@@ -61,10 +57,16 @@ body {
         visibility: visible;
         -webkit-transform: scaleX(1);
         transform: scaleX(1); }
-      @media (max-width: 34em) {
-        .navbar .nav-item .nav-link {
-          font-weight: normal;
-          color: #dbc6f8 !important; } }
+
+#hero {
+  background: url("/assets/cool-background.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+  #hero .hero-content {
+    position: relative;
+    top: 200px;
+    color: #372155; }
 
 .feature-wrapper {
-  background-color: #3a585f; }
+  background-color: #20232a; }
