@@ -27,6 +27,7 @@ nav {
     display: inline-block;
     color: #fff;
     text-decoration: none;
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 2em;
     vertical-align: middle; }
@@ -79,5 +80,23 @@ nav {
       display: flex;
       flex-direction: row; }
 
-.feature-wrapper {
-  background-color: #20232a; }
+#info-box {
+  background-color: #ebebeb;
+  color: #20232a;
+  padding: 30px;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  #info-box .boxes {
+    padding: 10px;
+    margin: 10px;
+    background: #fff;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
