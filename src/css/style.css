@@ -71,26 +71,29 @@ nav {
     font-size: 1.5em;
     display: flex;
     flex-direction: column; }
-    #hero .hero-content h1 .f-btm-brdr {
-      border-left: #41ade5 solid 5px;
-      padding-left: 20px; }
+    #hero .hero-content h1 {
+      text-transform: uppercase; }
+      #hero .hero-content h1 .f-btm-brdr {
+        border-left: #41ade5 solid 5px;
+        padding-left: 20px; }
     #hero .hero-content p {
-      padding-left: 23px; }
+      padding-left: 23px;
+      padding-top: 30px; }
     #hero .hero-content .atm-img {
       display: flex;
       flex-direction: row; }
 
-#info-box {
-  background-color: #ebebeb;
+#info-sec {
+  background: #ebebeb;
   color: #20232a;
-  padding: 30px;
+  padding-top: 30px;
   text-align: center;
-  height: 400px;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center; }
-  #info-box .boxes {
+  #info-sec .boxes {
     padding: 10px;
     margin: 10px;
     background: #fff;
@@ -99,4 +102,25 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center; }
+    align-items: center;
+    border-bottom: solid 5px #41ade5; }
+    #info-sec .boxes .inner-info {
+      line-height: 1.5; }
+
+#about-us {
+  background: #F8F8FF;
+  height: 100vh; }
+  #about-us .title-1 {
+    color: #41ade5;
+    padding: 100px;
+    text-align: left; }
+  #about-us .disc-box {
+    background: grey;
+    margin: 25px;
+    height: 65%;
+    width: 80%; }
+    #about-us .disc-box .disc-box-1 {
+      background: #41ade5;
+      margin: 20px;
+      height: 35%;
+      width: 60%; }

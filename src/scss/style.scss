@@ -92,7 +92,8 @@ nav {
         display: flex;
         flex-direction: column;
         h1 {
-            // padding-left: 20px; 
+            text-transform: uppercase;
+            
             .f-btm-brdr {
                 border-left: $skyBlue solid 5px;
                 padding-left: 20px;
@@ -101,6 +102,7 @@ nav {
         p {
             // font-family: Helvetica, serif;
             padding-left: 23px;
+            padding-top: 30px; 
         }
         .atm-img {
             display: flex;
@@ -110,12 +112,12 @@ nav {
     
 }
 
-#info-box {
-    background-color: $silverBack;
+#info-sec {
+    background: $silverBack;
     color: $reactBlack;
-    padding: 30px;
+    padding-top: 30px;
     text-align: center;
-    height: 400px;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -130,8 +132,30 @@ nav {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        border-bottom: solid 5px $skyBlue;
         .inner-info {
-            
+            line-height: 1.5;
+        }
+    }
+}
+#about-us {
+    background: $ghostWhite;
+    height: 100vh;
+    .title-1 {
+        color: $skyBlue;
+        padding: 100px;
+        text-align: left;
+    }
+    .disc-box {
+        background: grey;
+        margin: 25px;
+        height: 65%;
+        width: 80%;
+        .disc-box-1 {
+            background: $skyBlue;
+            margin: 20px;
+            height: 35%;
+            width: 60%;
         }
     }
 }
