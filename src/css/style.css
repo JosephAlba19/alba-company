@@ -37,6 +37,7 @@ nav {
   .navbar .nav-item {
     padding: 10px 15px; }
     .navbar .nav-item .nav-link {
+      padding-bottom: 5px;
       color: #fff;
       text-decoration: none;
       position: relative;
@@ -81,7 +82,8 @@ nav {
       padding-top: 30px; }
     #hero .hero-content .atm-img {
       display: flex;
-      flex-direction: row; }
+      flex-direction: row;
+      flex-wrap: wrap; }
 
 #info-sec {
   background: #ebebeb;
@@ -103,24 +105,28 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: solid 5px #41ade5; }
+    border-top: solid 5px #41ade5; }
     #info-sec .boxes .inner-info {
       line-height: 1.5; }
 
 #about-us {
-  background: #F8F8FF;
-  height: 100vh; }
+  background: #FDFDFD;
+  padding: 50px; }
   #about-us .title-1 {
     color: #41ade5;
     padding: 100px;
-    text-align: left; }
+    text-align: center;
+    font-size: 1.3em; }
   #about-us .disc-box {
-    background: grey;
-    margin: 25px;
-    height: 65%;
-    width: 80%; }
-    #about-us .disc-box .disc-box-1 {
-      background: #41ade5;
-      margin: 20px;
-      height: 35%;
-      width: 60%; }
+    background: #ebebeb;
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px; }
+    #about-us .disc-box .disc-box-abt {
+      padding: 20px;
+      text-align: center;
+      color: #20232a;
+      line-height: 1.5;
+      font-weight: 800;
+      font-size: 1.5em; }
