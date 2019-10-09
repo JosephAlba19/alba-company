@@ -17,13 +17,12 @@ ul, nav {
 
 a {
   text-decoration: none;
-  opacity: 0.75;
   color: #20232a;
-  /* color: #fff; */
 }
 
 a:hover {
   opacity: 1;
+  color: #555;
 }
 
 a.btn {
@@ -31,7 +30,12 @@ a.btn {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  background-color: #20232a;
+  background-color: #ccc;
+}
+
+a.btn:hover {
+  opacity: 0.75;
+  color: #20232a;
 }
 
 section {
@@ -84,7 +88,6 @@ section p {
 /* Header Styles */
 
 header {
-  /* position: absolute; */
   color: #20232a;
   width: 100%;
   display: flex;
