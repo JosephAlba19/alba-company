@@ -26,6 +26,7 @@ html {
 
 ul, nav {
   list-style: none;
+  font-size: 1.3rem;
 }
 
 a {
