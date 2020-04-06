@@ -497,24 +497,4 @@ body {
     #info-sec .boxes .inner-info {
       line-height: 1.5; }
 
-#about-us {
-  background: #FDFDFD;
-  padding: 50px; }
-  #about-us .title-1 {
-    color: #41ade5;
-    padding: 100px;
-    text-align: center;
-    font-size: 1.3em; }
-  #about-us .disc-box {
-    background: #ebebeb;
-    height: 400px;
-    width: 1000px;
-    margin: 0 auto;
-    padding: 50px; }
-    #about-us .disc-box .disc-box-abt {
-      padding: 20px;
-      text-align: center;
-      color: #20232a;
-      line-height: 1.5;
-      font-weight: 800;
-      font-size: 1.5em; } */
+
